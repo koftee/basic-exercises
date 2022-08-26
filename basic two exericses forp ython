@@ -1,0 +1,30 @@
+#90 yaşına ne kadar kaldığını gösteren basit bir çalışma/64 / It shows how many years, months, weeks and days until we reach age 90
+print("Hoşgeldiniz")
+print("------------")
+yas = int(input("yaşınız kaç: "))
+kac_yil_var_90a = 90 - yas
+kac_ay_var_90a = (90 - yas)*12
+kac_hafta_var_90a = (90 - yas)*52
+kac_gun_var_90a =  (90 - yas)*365
+print("------------")
+print(f"90 yaşına gelmenize {kac_yil_var_90a} yıl {kac_ay_var_90a} ay {kac_hafta_var_90a} hafta {kac_gun_var_90a} gün kalmıştır")
+
+
+#boy kilo endeksi hesaplayıcı bmi calculator basic code exercise with python
+print("Kilo Boy endeks hesaplama ")
+print("Hoşgeldiiniz")
+kilo = int(input("kaç kilosunuz: "))
+boy =float(input("boyunuz kaç m: "))
+
+bmi_calculator = kilo/boy**2
+if bmi_calculator<18.4:
+    print("zayıfısnız")
+elif 18.4<bmi_calculator<24.9:
+    print("normalsiniz")
+elif 24.9<bmi_calculator<29.9:
+    print("kilolusunuz")
+elif bmi_calculator>=29.9:
+    print("obezsiniz")
+
+
+print(bmi_calculator)
